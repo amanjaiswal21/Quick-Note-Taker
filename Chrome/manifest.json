@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Note Taker",
+    "description": "A simple note-taking extension.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons8-chrome-50.png"
+    },
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
